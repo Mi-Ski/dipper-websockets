@@ -1,0 +1,24 @@
+{
+  "name": "dipper-websockets",
+  "version": "1.0.0",
+  "description": "Additional Node.js service for dipper.pl that will provide real time timeline notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mi-Ski/dipper-websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mi-Ski/dipper-websockets/issues"
+  },
+  "homepage": "https://github.com/Mi-Ski/dipper-websockets#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.12.1"
+  }
+}
